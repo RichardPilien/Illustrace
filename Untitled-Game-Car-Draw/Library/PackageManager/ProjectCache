@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638532829862806255
-    m_Hash: 302141068
+      ticks: 638533669505811694
+    m_Hash: 3979851694
   m_LockFileStatus:
     m_FilePath: D:/GitHubProjects/GameDev/Untitled-Game/Untitled-Game/Untitled-Game-Car-Draw/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638532829863114826
-    m_Hash: 123663002
+      ticks: 638533669505811694
+    m_Hash: 3018500667
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
