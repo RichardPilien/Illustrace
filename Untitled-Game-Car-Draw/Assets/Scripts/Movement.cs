@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
         if (isMoving)
         {
             // Automatically move the player to the left
-            rb.velocity = new Vector3(-speed, rb.velocity.y, 0);
+            rb.velocity = new Vector3(speed, rb.velocity.y, 0);
         }
 
         // Allow the player to jump
@@ -66,13 +66,13 @@ public class Movement : MonoBehaviour
         }
     }
 
-    private void ResetPosition()
+    public void ResetPosition()
     {
         transform.position = startPosition;  // Reset to the starting position
         transform.rotation = startRotation;  // Reset to the starting rotation
         rb.velocity = Vector3.zero;  // Reset velocity
         rb.angularVelocity = Vector3.zero;  // Reset angular velocity to stop any rotation
         isMoving = false;  // Stop movement until the player clicks again
-        clickToStartText.enabled = true;  // Show the text again when player resets
+        clickToStartText.enabled = true;  // Show the text again when player resets 
     }
 }
